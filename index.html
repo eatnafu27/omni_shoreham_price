@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .custom-card img {
+            object-fit: cover; /* Ensure image covers the card without distortion */
+            height: 260px; 
+            width: 270px; 
+        }
+        main >.container.all_card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 20px;
+            flex-wrap: wrap;
+            background-color: transparent;
+        }
+        h1{
+            font-style:oblique;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./image/image logo/Omni Shoreham logo 2024.PNG" width="500px" height="70px" >  
+    </header>
+    <main>
+        
+        <h1></br>PRODUCT PRICE LISTS</br></h1>
+        <div class="container all_card">
+            <div class="card custom-card">
+                <a href="./skin_care.html"> <img src="./image/eminence-organics-nighttime-skin-care-routine.png" class="card-img-top" 
+                    alt="Eminence Organic Skin Care Products"></a>
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Organic Skin Care Products</p>
+                </div>
+            </div>
+            <div class="card custom-card">
+                <a href="./facial_massage_tool.html"> <img src="./image/cecily product.png" class="card-img-top" 
+                    alt="Facial Massage Tools" ></a>
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Facial Massage Tools</p>
+                </div>
+
+            </div>
+            <div class="card custom-card">
+                <a href="./other.html"> <img src="./image/Goggles.webp" class="card-img-top" 
+                    alt="Goggle and Swim Diaper" ></a>
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Goggle and Swim Diaper</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

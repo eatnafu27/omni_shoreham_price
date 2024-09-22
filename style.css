@@ -1,0 +1,80 @@
+/* body{
+    background-color: light pink;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('./image/dermage_aesthetic_center_day_spa_wilton_connecticut_4.jpg'); /* Set your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image relative to the viewport */
+    background-repeat: no-repeat; /* Prevent repeating of the background image */
+    position: relative; /* To position the overlay correctly */
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    background-color: #ced6ce;
+    flex-wrap: wrap;
+}
+
+
+header{
+    display: flex;
+    /* background-color: #2e4a4f; */
+    background-color: #003e52;
+    padding: 5px;
+    border: 2px solid black;
+    justify-content: center;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure the header is above other content */
+}
+header>img{
+    border: none;
+    padding: 4px; 
+}
+img{
+    border: 3px solid black;   
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Hina Mincho", serif;
+    font-style: normal;
+    text-align: center;
+}
+.pricing{
+    flex: 1;
+    padding: 15px;
+    border: 10px solid whitesmoke;
+    text-align: center;
+}
+.hina-mincho-regular {
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+footer{
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+/* index only */
+.custom-card:hover {
+    transform: scale(1.07); /* Slightly enlarge the card on hover */
+}
+
+.custom-card .card-body {
+    background-color: lightcyan;
+    padding: 20px; /* Custom padding */
+} 
+
